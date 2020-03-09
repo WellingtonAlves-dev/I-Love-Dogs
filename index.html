@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wellington R. alves">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random dog photo collection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar nav-degrade navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">I love DOGs</span>
+        <a href='galery.html'>Galery</a>
+
+    </nav>
+
+    <div class='container'>
+        <div class='row d-flex justify-content-center'>
+            <img class='pic' id="image_pic" alt="Imagens podem ter problema para carregar">
+        </div>
+
+        <div class='row d-flex justify-content-center mt-3'>
+            <div class='col-sx-1'>
+                <div class='circulo shadow' name='dontlike' >
+                    <span class='desc_icon'>Não gostei</span>
+                    <img class='icon' src='img/icons8-excluir-48.png'>
+                </div>
+            </div>
+            <div class='col-sx-1'>
+                <div class='circulo shadow' name='like'>
+                    <span class='desc_icon'>gostei!!!</span>
+
+                    <img class='icon' src='img/icons8-gostei-preenchido-48.png'>
+                </div>
+            </div>
+            <div class='col-sx-1'>
+                <div class='circulo shadow' name='shared'>
+                    <span class='desc_icon'>Compartilhar</span>
+
+                    <img class='icon' src='img/icons8-partilhar-48.png'>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src='js/script.js'></script>
+</body>
+</html>
